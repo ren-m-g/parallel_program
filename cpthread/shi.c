@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <sys/time.h>
 #include <math.h>
-long numThreads=1;
+long numThreads=8;
 long dim=1000;
 
 void *PrintHello()
@@ -228,7 +228,7 @@ int main(int argc, char *argv[])
     }
     struct Matrix B=CreateMatrix(dim,1);
     for(i=0;i<dim;i++){
-        B.m[i]=10;
+        B.m[i]=100;
     }
 
     gettimeofday(&t1,NULL);
