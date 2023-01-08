@@ -1,0 +1,23 @@
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n02p001
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n02p001
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+Количество итерации:20
+Метод Гаусса:x(n):0.000200,x(n-1)=0.000000
+Метод сопряженных градиентов:x(n)=0.000109,x(n-1)=0.000074
+Размерность матрицы:1000
+Количество потоков:1
+Время:0.180364s
